@@ -1,6 +1,6 @@
-# Projecte XXXXXXXXXXXXX
+# Projecte Seients
 
->**Autors:** 
+>**Autors: MIGUEL Angel Tovar Jaime - Pol Salas Costa** 
 >**Versió: **
 
 ----------
