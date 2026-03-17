@@ -40,8 +40,6 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 
 ## Components
 
-## Components
-
 | Descripció | Ref | Package | Datasheet | Proveïdor | Preu | Unitats |
 | --- | --- | --- | --- | --- | --- | --- |
 | Microcontrolador | PIC24HJ128GP502 | SOIC-28 | [Datasheet](https://www.microchip.com/en-us/product/PIC24HJ128GP502) | Mouser | 4,50&euro; | 1x |
