@@ -40,11 +40,23 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 
 ## Components
 
-| Descripci&#243; | Ref | Package |Datasheet | Prove&#239;dor | Preu | Unitats |
-| --- | --- | --- | --- | ---| --- | --- |
-| Microcontrolador | PIC18F26Q83-I/SS | SOIC-28 |[Datasheet](https://www.mouser.es/datasheet/2/268/PIC18F27_47_57Q83_Preliminary_Data_Sheet_40002265B-2887591.pdf) | [Mouser](https://www.mouser.es/c/?q=PIC18F27Q83-I%2FSO)| 2,17&euro;| 1x |
-| XTAL-Ressonador | CSTCR7M99G53-R0 | SMD |[Datasheet](https://www.mouser.es/datasheet/2/281/p16e-522700.pdf) | [Mouser](https://www.mouser.es/ProductDetail/Murata-Electronics/CSTCR7M99G53-R0?qs=Zd9RUO93%2Fo7cnwzsujIkpA%3D%3D)  | 0,27&euro; | 1x |
+## Components
 
+| Descripció | Ref | Package | Datasheet | Proveïdor | Preu | Unitats |
+| --- | --- | --- | --- | --- | --- | --- |
+| Microcontrolador | PIC24HJ128GP502 | SOIC-28 | [Datasheet](https://www.microchip.com/en-us/product/PIC24HJ128GP502) | Mouser | 4,50&euro; | 1x |
+| Controlador PWM I2C | PCA9685BS | HVQFN-28 | [Datasheet](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) | Mouser | 2,10&euro; | 1x |
+| Driver de Motor (Pont H) | DRV8871 | HSOP-8 | [Datasheet](https://www.ti.com/lit/ds/symlink/drv8871.pdf) | Mouser | 1,50&euro; | 3x |
+| MOSFET de potència | IRLZ44N | TO-220 | [Datasheet](https://www.infineon.com/dgdl/irlz44n.pdf?fileId=5546d462533600a40153567206892720) | Mouser | 0,90&euro; | 1x |
+| Memòria EEPROM I2C | 24LC256 | SOIC-8 | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21203M.pdf) | Mouser | 0,60&euro; | 1x |
+| Transceptor CAN | TCAN1473A-Q1 | SOIC-14 | [Datasheet](https://www.ti.com/product/TCAN1473-Q1) | Mouser | 1,80&euro; | 1x |
+| Traductor RS232 | MAX3232 | SOIC-16 | [Datasheet](https://www.ti.com/lit/ds/symlink/max3232.pdf) | Mouser | 1,20&euro; | 1x |
+| Regulador Buck (12V a 5V) | LM2596 | TO-263 | [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf) | Mouser | 1,50&euro; | 1x |
+| Regulador LDO (5V a 3.3V) | LM1117 | TO-252 | [Datasheet](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | Mouser | 0,80&euro; | 1x |
+| Connector Sèrie | DE-9_socket | THT | - | Mouser | 1,00&euro; | 1x |
+| Mòdul Botonera Seient | 5F0857756YLZ | OEM | - | Recanvis VAG | 45,00&euro; | 1x |
+| Microinterruptor (Cinturó) | Omron D2F | THT | [Datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf) | Mouser | 0,50&euro; | 1x |
+| Manta Calefactora | Carbon Fiber Pad | - | - | Genèric | 15,00&euro; | 1x |
 -----------
 
 ## Software
