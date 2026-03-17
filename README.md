@@ -14,7 +14,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 
 ## Diagrama de blocs
 
-!DiagramadeBlocs[C:\Users\polsa\workspace\edd-project-grup-dimecres-dc_c_seients]
+![DiagramadeBlocs](C:\Users\polsa\workspace\edd-project-grup-dimecres-dc_c_seients)
 
 ### Descripció/funcionalitat de cada bloc
 
