@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -615,8 +615,12 @@
       "Root"
     ],
     [
-      "6cdff316-321d-4e2a-ae92-d436fe0e8f03",
-      "Potencia"
+      "4b7a2b31-c07e-4668-81d2-c9fcd52362f2",
+      "micro i extra"
+    ],
+    [
+      "4a4282cf-dc92-46de-ac55-98ec74b7bb09",
+      "potencia"
     ]
   ],
   "text_variables": {}
