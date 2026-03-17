@@ -70,5 +70,4 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 | Data | Autor     | Branch | Versi&#243; | Descripci&#243; |
 | --- | --- | --- | --- | --- |
 |  28/03/2023 | mlopez | Master | initial commit | Primera versi&#243; d'esquem&#224;tic i selecci&#243; de components |
-| --- | --- | --- | --- | --- |
-| 17/03/2026 | Pol i Miguel | main | 1.0.0 | Finalització de l'esquemàtic, disseny jeràrquic i afegides xarxes de protecció EMI/RC. |
+| 17/03/2026 | Pol i Miguel | main | 1.0.0 | Finalització de l'esquemàtic |
