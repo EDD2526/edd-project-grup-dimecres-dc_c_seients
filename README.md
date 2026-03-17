@@ -3,13 +3,13 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 # Projecte Seients
 
 >**Autors: MIGUEL Angel Tovar Jaime - Pol Salas Costa** 
->**Versió: **
+>**Versió: 1.0.0**
 
 ----------
 
 ## Objectiu
 
->PCB per ...
+>Dissenyar una Unitat de Control Electrònic (ECU) per al control dels seients, capaç de gestionar la posició, memòria de la posició i l'escalfador del seient, comunicant-se amb la resta del vehicle mitjançant bus CAN.
 
 
 ## Diagrama de blocs
