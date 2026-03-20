@@ -15,6 +15,18 @@
 		)
 		(uuid "39eb9ff1-7237-4db6-a16c-6a0679872dc0")
 	)
+	(text "Etapa relacionada \namb el microcontrolador \ni altres funcionaments"
+		(exclude_from_sim no)
+		(at 81.026 75.184 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "3da8bb6e-8294-49ff-8ad4-5d25c7478f9c")
+	)
 	(text "Placa de Control - Seients Elèctrics"
 		(exclude_from_sim no)
 		(at 204.47 189.484 0)
@@ -26,6 +38,18 @@
 			)
 		)
 		(uuid "5ab17c14-8d90-4196-bddf-6c1028b77f10")
+	)
+	(text "Etapa relacionada \namb la potència"
+		(exclude_from_sim no)
+		(at 216.916 74.676 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "5d748852-9fa6-42f6-9e26-52939f3bc788")
 	)
 	(text "17/03/2026\n"
 		(exclude_from_sim no)
@@ -39,12 +63,23 @@
 		)
 		(uuid "82b95fc9-5ffc-4f6c-a05a-ef0c21eb5bc8")
 	)
-	(text "Autors: Miguel Tovar i Pol Salas"
+	(text "Pàgina principal"
 		(exclude_from_sim no)
-		(at 193.802 168.148 0)
+		(at 191.008 172.72 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
+				(thickness 0.254)
+			)
+		)
+		(uuid "8c8f5225-ec61-49ce-a872-e2a42800dedf")
+	)
+	(text "Autors: Miguel Tovar i Pol Salas"
+		(exclude_from_sim no)
+		(at 203.708 168.91 0)
+		(effects
+			(font
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "c27d257d-1c1c-4a69-9cde-a3637f356592")
