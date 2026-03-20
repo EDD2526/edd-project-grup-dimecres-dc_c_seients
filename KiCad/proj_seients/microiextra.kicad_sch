@@ -5,6 +5,462 @@
 	(uuid "8fd40394-5d1c-4f70-a3a4-e3d43f8085b0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:DE9_Pins"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE9_Pins"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "9-pin D-SUB connector, pins (male)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DSUB DB9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Pins*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE9_Pins_0_1"
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DE9_Pins_1_1"
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:DE9_Socket"
 			(pin_names
 				(offset 1.016)
@@ -3658,6 +4114,12 @@
 		(uuid "6c73dc12-0ceb-4e9e-a44f-0404911b1676")
 	)
 	(junction
+		(at 242.57 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d636e1a-ebb7-4bd9-a1fb-d6ca7a9fc71f")
+	)
+	(junction
 		(at 72.39 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3716,6 +4178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c64f4ecb-9606-4130-9482-a7307a497514")
+	)
+	(junction
+		(at 242.57 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ce0dad-21c3-41b6-9bfc-4f1bc27d45c3")
 	)
 	(junction
 		(at 69.85 157.48)
@@ -3864,6 +4332,16 @@
 			(type default)
 		)
 		(uuid "02048404-e34e-4b42-9503-7e743a8bcf8c")
+	)
+	(wire
+		(pts
+			(xy 242.57 128.27) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0239625a-1132-45cb-9c89-888134859ad8")
 	)
 	(wire
 		(pts
@@ -4627,6 +5105,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 128.27) (xy 242.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f23ce2-e67a-4c9a-bab5-fa139c77f76e")
+	)
+	(wire
+		(pts
 			(xy 124.46 36.83) (xy 127 36.83)
 		)
 		(stroke
@@ -4674,6 +5162,16 @@
 			(type default)
 		)
 		(uuid "6009a247-adf5-41c5-926d-c5a0fa9ca18d")
+	)
+	(wire
+		(pts
+			(xy 242.57 135.89) (xy 242.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6166fc2d-0a27-4625-b176-dcdebf52dbfd")
 	)
 	(wire
 		(pts
@@ -4824,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "71c2a9c0-62a9-4c07-8d04-71d01776b80c")
+	)
+	(wire
+		(pts
+			(xy 257.81 128.27) (xy 257.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753359f5-e5a6-4a0f-afa9-fbfe1d9ccb1d")
 	)
 	(polyline
 		(pts
@@ -5795,16 +6303,6 @@
 		)
 		(uuid "f20f03da-1b41-45d9-848e-b46eb6063017")
 	)
-	(wire
-		(pts
-			(xy 257.81 130.81) (xy 257.81 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22e76e6-b314-4dd1-9e4d-c34b6196818a")
-	)
 	(polyline
 		(pts
 			(xy 180.975 133.985) (xy 220.98 133.985)
@@ -5930,22 +6428,22 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 257.81 130.81 90)
+		(at 238.76 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0ae8232f-33ac-494c-b304-795278897068")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 125.5267 90)
+			(at 233.4767 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8575,95 +9073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Socket")
-		(at 270.51 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ea33ffa-5780-4d1f-8c1b-878b44c88abb")
-		(property "Reference" "J19"
-			(at 276.86 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DE9_Socket"
-			(at 279.4 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin D-SUB connector, socket (female)"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f245e9f5-9c9e-4ad4-a03b-dd14904f609c")
-		)
-		(pin "8"
-			(uuid "b226df30-aff4-419f-a3f0-c4abead4033b")
-		)
-		(pin "7"
-			(uuid "e1af5331-924c-4adf-b834-cd2ed10f4ac4")
-		)
-		(pin "5"
-			(uuid "5f39f0e2-c7fe-4934-9d9f-8bdbc2475dd5")
-		)
-		(pin "9"
-			(uuid "bcd93a1c-cefa-4ade-a331-a198a05cdaf7")
-		)
-		(pin "1"
-			(uuid "5c19af00-a286-45b6-a3ed-695c6979435a")
-		)
-		(pin "2"
-			(uuid "9068b0a4-0f80-4dd3-bbee-01e61c493073")
-		)
-		(pin "4"
-			(uuid "c12111bb-8de7-44c8-8167-5df883696e13")
-		)
-		(pin "3"
-			(uuid "45fe3486-2f2d-4219-bef8-f494bdc975f1")
-		)
-		(instances
-			(project "proj_seients"
-				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 242.57 39.37 0)
 		(mirror y)
@@ -10800,6 +11209,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 242.57 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84875037-3212-4217-ac0c-66b55d8d8e2c")
+		(property "Reference" "C26"
+			(at 240.284 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 239.014 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.6048 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fedf4235-4c8a-43ea-8d76-fb70d56efd63")
+		)
+		(pin "2"
+			(uuid "0096370f-b17a-4a6e-b2bd-9b3e4ff66b71")
+		)
+		(instances
+			(project "proj_seients"
+				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 257.81 156.21 0)
 		(unit 1)
@@ -12688,6 +13164,95 @@
 			(project "proj_seients"
 				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Pins")
+		(at 270.51 99.06 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9a620e0-9180-4e88-84d8-72c458d2b786")
+		(property "Reference" "J3"
+			(at 278.384 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Pins"
+			(at 279.146 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, pins (male)"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d527558e-8ae0-4a0f-9a1b-88af5c52109c")
+		)
+		(pin "7"
+			(uuid "d4794329-9bc3-432d-b24e-1d707aedc709")
+		)
+		(pin "1"
+			(uuid "c7a8d1ca-f1ff-4451-9a3d-c82ffb4f7a66")
+		)
+		(pin "5"
+			(uuid "7a0914a7-d74f-4e5e-b995-541b5d71e949")
+		)
+		(pin "3"
+			(uuid "7796ceff-fc2b-4eff-b06f-e07ea2c5c252")
+		)
+		(pin "6"
+			(uuid "e66adc4e-d7ab-436a-b522-6a912ab5941e")
+		)
+		(pin "9"
+			(uuid "57f7d382-b8c2-47d4-9fd8-8062128b4816")
+		)
+		(pin "2"
+			(uuid "8a90bab0-b48c-4cd0-9fe4-cfc9fb4f0ced")
+		)
+		(pin "4"
+			(uuid "aefd907c-0192-4da7-9ddb-205383a1a844")
+		)
+		(instances
+			(project ""
+				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
+					(reference "J3")
 					(unit 1)
 				)
 			)
