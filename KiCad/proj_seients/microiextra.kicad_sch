@@ -4324,7 +4324,7 @@
 		)
 		(uuid "a5f45fa2-4998-444c-9cde-fdef54537d57")
 	)
-	(text "Autors: Miguel Tovar i Pol Salas\nEtapa relacionada amb el microcontrolador \ni altres funcionaments"
+	(text "Autors: Miguel Tovar i Pol Salas\nEtapa relacionada amb el microcontrolador \ni altres funcionaments.\n"
 		(exclude_from_sim no)
 		(at 178.308 173.736 0)
 		(effects
