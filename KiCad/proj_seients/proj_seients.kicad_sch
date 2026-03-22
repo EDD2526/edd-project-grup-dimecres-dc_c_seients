@@ -65,7 +65,7 @@
 	)
 	(text "Pàgina principal"
 		(exclude_from_sim no)
-		(at 191.008 172.72 0)
+		(at 190.754 179.07 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -76,7 +76,7 @@
 	)
 	(text "Autors: Miguel Tovar i Pol Salas"
 		(exclude_from_sim no)
-		(at 203.708 168.91 0)
+		(at 203.454 175.26 0)
 		(effects
 			(font
 				(size 2.032 2.032)

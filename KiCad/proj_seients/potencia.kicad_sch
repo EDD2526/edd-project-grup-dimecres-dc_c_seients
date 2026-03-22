@@ -2846,7 +2846,7 @@
 	)
 	(text "Autors: Miguel Tovar i Pol Salas\nEtapa relacionada amb la potència"
 		(exclude_from_sim no)
-		(at 177.8 170.688 0)
+		(at 178.054 176.784 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7825,80 +7825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 78.74 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "a1c615e6-6ea6-4ac1-bf2f-5d4c768d3349")
-		(property "Reference" "J7"
-			(at 75.184 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Manta_Asiento"
-			(at 78.74 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 78.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.74 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc8afdd8-e521-474e-9105-ef9729e80788")
-		)
-		(pin "1"
-			(uuid "cb345394-f971-4f69-bce5-f45f93f07fc9")
-		)
-		(instances
-			(project "proj_seients"
-				(path "/abdea21b-3040-408b-b009-221f8b614884/4a4282cf-dc92-46de-ac55-98ec74b7bb09"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-			(project "potencia"
-				(path "/e703235d-88cc-45b4-9841-d784390bc6ab"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 180.34 129.54 90)
 		(mirror x)
@@ -8642,6 +8568,73 @@
 			(project "potencia"
 				(path "/e703235d-88cc-45b4-9841-d784390bc6ab"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 78.74 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1775d5f-3dcf-49df-895c-711f27c472bf")
+		(property "Reference" "J7"
+			(at 75.692 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Manta_Asiento"
+			(at 76.962 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5c401d4-049f-4bc7-a1c5-1ee4f029ea8f")
+		)
+		(pin "1"
+			(uuid "b1fea763-cd55-4649-a37a-99c8720e56b6")
+		)
+		(instances
+			(project "proj_seients"
+				(path "/abdea21b-3040-408b-b009-221f8b614884/4a4282cf-dc92-46de-ac55-98ec74b7bb09"
+					(reference "J7")
 					(unit 1)
 				)
 			)
