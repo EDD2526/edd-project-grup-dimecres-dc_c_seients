@@ -30560,7 +30560,7 @@
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
-			(at 9 2.5 90)
+			(at -0.05 -2.4 180)
 			(layer "F.SilkS")
 			(uuid "ed271def-1952-4682-af91-1e80dbe1c520")
 			(effects
@@ -31218,53 +31218,27 @@
 		(layer "F.Cu")
 		(uuid "ed7925b8-c1b3-464d-a104-27a7063d8d9c")
 	)
-	(gr_text "V2.2"
-		(at 268.5 194.2 0)
-		(layer "Cmts.User")
-		(uuid "77fbc6e1-f4a9-4927-b3aa-d9dfa6366b27")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "23/3/2026\n"
-		(at 206.8 194.1 0)
-		(layer "Cmts.User")
-		(uuid "7d75d914-db1f-4a09-815a-23a8a8ac6bf2")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Autors: Miguel Tovar i Pol Salas\nPCB del circuit"
-		(at 177.9 178.3 0)
-		(layer "Cmts.User")
-		(uuid "a430459d-e856-4000-bba8-a25b5f6a9421")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.75)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Placa de Control - Seients Elèctrics"
-		(at 186.5 190.4 0)
-		(layer "Cmts.User")
-		(uuid "c07ac1e4-2022-4053-8cad-83ea4e41245c")
+		(at 197.8 140 90)
+		(layer "F.SilkS")
+		(uuid "ccea3dd4-dfff-4aac-ad95-86140227df49")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1 1)
+				(thickness 0.25)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Autors: Miguel Tovar i Pol Salas\n"
+		(at 199.6 138.3 90)
+		(layer "F.SilkS")
+		(uuid "d06c1fe9-d27d-4b68-81c4-aca49000f7cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
 			)
 			(justify left bottom)
 		)
