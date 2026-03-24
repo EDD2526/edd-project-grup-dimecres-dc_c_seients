@@ -8443,7 +8443,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9eb42cc-5ec4-4bf0-a32c-a5a3e7bcfa16")
+		(uuid "b9eb42cc-5ec4-4bf0-a32c-a5a3e7bcfa17")
 		(property "Reference" "#PWR0101"
 			(at 44.45 138.43 0)
 			(effects
@@ -8489,7 +8489,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "33b038a7-d98d-4f00-b5f0-472119ddded7")
+			(uuid "33b038a7-d98d-4f00-b5f0-472119ddded8")
 		)
 		(instances
 			(project "proj_seients"
