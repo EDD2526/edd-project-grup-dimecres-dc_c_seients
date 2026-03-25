@@ -22,7 +22,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
   * **Alimentació:** Sistema de doble regulació. Un convertidor LM2596 que redueix els 12V de la bateria a 5V per a comunicacions, i un regulador LM1117 que  proporciona 3.3V nets per a la lògica digital
   * **Control de Potència:** Controlador PWM actuant a través del bus I2C, PCA9685, per accionar els drivers dels 3 motors (posició, altura, reclinació). S'inclou un MOSFET per al control de la manta calefactora
   * **Emmagatzematge:** Memòria EEPROM I2C, 24LC256, per desar de forma no volàtil certes posicions dels seients
-  * **Interfícies de Comunicació:** Transceptor TCAN1043 per a connexió al bus CAN del vehicle, i MAX3232 per adaptar els nivells lògics UART a RS232 per a depuració mitjançant connector DE-9
+  * **Interfícies de Comunicació:** Transceptor MCP2562-E-SN per a connexió al bus CAN del vehicle, i MAX3232 per adaptar els nivells lògics UART a RS232 per a depuració mitjançant connector DE-9
   * **Entrades/Sensors:** Connectors per a la botonera d'usuari i finals de cursa
 
 -----------
@@ -48,7 +48,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 | MOSFET de potència | IRLZ44N | TO-220 | [Datasheet](https://www.infineon.com/dgdl/irlz44n.pdf?fileId=5546d462533600a40153567206892720) | Mouser | 0,90&euro; | 1x |
 | Memòria EEPROM I2C | 24LC256 | SOIC-8 | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21203M.pdf) | Mouser | 0,60&euro; | 1x |
 | Transceptor CAN | MCP2562-E-SN | SOIC-8 | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf) | Mouser | 1,10&euro; | 1x |
-| Traductor RS232 | MAX3232 | SOIC-16 | [Datasheet](https://www.ti.com/lit/ds/symlink/max3232.pdf) | Mouser | 1,20&euro; | 1x |
+| Transceptor RS232 | MAX3232 | SOIC-16 | [Datasheet](https://www.ti.com/lit/ds/symlink/max3232.pdf) | Mouser | 1,20&euro; | 1x |
 | Expansor I/O I2C | PCF8574T | SOIC-16 | [Datasheet](https://www.ti.com/lit/ds/symlink/pcf8574.pdf) | Mouser | 1,30&euro; | 1x |
 | Regulador (12V a 5V) | LM2596 | TO-263 | [Datasheet](https://www.ti.com/lit/ds/symlink/lm2596.pdf) | Mouser | 1,50&euro; | 1x |
 | Regulador (5V a 3.3V) | LM1117 | TO-252 | [Datasheet](https://www.ti.com/lit/ds/symlink/lm1117.pdf) | Mouser | 0,80&euro; | 1x |
@@ -57,7 +57,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 | Sensor cinturó | 5F0857756YLZ | OEM | - | Recanvis VAG | 45,00&euro; | 1x |
 | Motor DC amb reductora | JGY370 (12V, 30 RPM) | Eix 6mm D | - | Genèric | 9,00&euro; | 3x |
 | Manta Calefactora | Carbon Fiber Pad | Genèric | - | Genèric | 15,00&euro; | 1x |
-| Sensor Temperatura | Termistor NTC 10k | Gota / Cable| [Datasheet](https://www.vishay.com/docs/29049/ntcle100.pdf) | Genèric | 0,50&euro; | 1x |
+| Sensor Temperatura | Termistor NTC 10k | Gota / Cable| [Datasheet](https://www.vishay.com/docs/29049/ntcle100.pdf) | Genèric | 0,50€ | 1x |
+| Sensor de Temperatura | TMP102 | DRL SOT563 | [Datasheet](https://www.ti.com/lit/ds/symlink/tmp102.pdf) | Texas Instruments | 0,323€ | 1x |
 -----------
 
 ## Software
