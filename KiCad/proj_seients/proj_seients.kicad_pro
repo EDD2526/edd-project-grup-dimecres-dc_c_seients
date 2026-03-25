@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|104017500|142000000|2f1a0bcb-2394-410d-a7d6-1d3ac9b3dc62|00000000-0000-0000-0000-000000000000",
-          "S'ha canviat el ordre de dos pins "
-        ],
-        [
-          "lib_footprint_mismatch|166500000|98432500|6496d765-6c7c-414f-b72b-18b482b70106|00000000-0000-0000-0000-000000000000",
-          "S'ha canviat el ordre de dos pins "
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
