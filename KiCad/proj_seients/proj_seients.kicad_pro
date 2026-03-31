@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|112492500|76080000|d0596552-3ef3-4b6f-96ac-a415fde2c710|00000000-0000-0000-0000-000000000000",
+          "S'ha modificat la huella del component degut a una millora de posicionament"
+        ],
+        [
+          "lib_footprint_mismatch|155075000|94467500|43d55180-3e47-462e-9bc5-66e8c2ef513d|00000000-0000-0000-0000-000000000000",
+          "S'ha modificat la huella del component degut a una millora de posicionament"
+        ],
+        [
+          "lib_footprint_mismatch|163412500|109965000|df235a43-875a-4cf7-b6f7-b50f930310e0|00000000-0000-0000-0000-000000000000",
+          "S'ha modificat la huella del component degut a una millora de posicionament"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -556,7 +569,7 @@
         "pattern": "12V"
       },
       {
-        "netclass": "Potencia_alta",
+        "netclass": "Potencia_media",
         "pattern": "GND"
       },
       {
