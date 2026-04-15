@@ -4141,107 +4141,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Hebilla sensor integrado "
 		(exclude_from_sim no)
@@ -4480,10 +4379,10 @@
 		(uuid "3aa06168-68d0-416f-b9f1-1802bd4659d8")
 	)
 	(junction
-		(at 163.83 101.6)
+		(at 172.72 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c6d547e-6953-4d7a-a97e-6270cd4373e0")
+		(uuid "443e108b-3e0b-43c8-bd06-2dd0840ea51e")
 	)
 	(junction
 		(at 77.47 36.83)
@@ -4658,12 +4557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d64f916d-554a-45f4-b2b0-fa8e01b77f7f")
-	)
-	(junction
-		(at 172.72 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de0e1173-2fb0-483f-9026-4d3fd28f3d72")
 	)
 	(junction
 		(at 36.83 81.28)
@@ -4861,16 +4754,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 172.72 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "072b3aa4-01dc-4c60-8bfe-87f647ff20b7")
-	)
-	(wire
-		(pts
 			(xy 64.77 120.65) (xy 95.25 120.65)
 		)
 		(stroke
@@ -4928,16 +4811,6 @@
 			(type default)
 		)
 		(uuid "0b65ea5e-76be-43c8-baba-91a07f1a54de")
-	)
-	(wire
-		(pts
-			(xy 163.83 110.49) (xy 163.83 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c0db736-b38f-40c4-a148-adcdc49e4f20")
 	)
 	(polyline
 		(pts
@@ -6531,7 +6404,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 110.49) (xy 172.72 109.22)
+			(xy 172.72 101.6) (xy 172.72 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9035,74 +8908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 163.83 105.41 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07574c19-248d-459f-93b0-275942201a22")
-		(property "Reference" "C34"
-			(at 166.116 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 167.132 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 164.7952 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "feb2a765-ec3f-4b57-991f-2645c4787101")
-		)
-		(pin "2"
-			(uuid "1ed38589-9f29-4a06-ba54-19592d4f11b1")
-		)
-		(instances
-			(project "proj_seients"
-				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 247.65 39.37 0)
 		(mirror y)
@@ -10365,74 +10170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 172.72 105.41 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43ebe67c-42c1-4c74-bc5d-4b36c3d95b95")
-		(property "Reference" "C33"
-			(at 175.006 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 176.276 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 173.6852 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 172.72 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04a2f923-3887-408a-a810-0110ddc8c0f1")
-		)
-		(pin "2"
-			(uuid "f20b6ec1-dc0a-4478-864b-600f7930d6bc")
-		)
-		(instances
-			(project "proj_seients"
-				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 88.9 0)
 		(unit 1)
@@ -11557,71 +11294,6 @@
 			(project "proj_seients"
 				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6377672f-456b-4e7d-b6a3-4e13a6f53623")
-		(property "Reference" "#PWR01"
-			(at 163.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.624 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "555edd15-b4e4-4089-8a46-9914b4aa0b3c")
-		)
-		(instances
-			(project "proj_seients"
-				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13090,71 +12762,6 @@
 			(project "proj_seients"
 				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 163.83 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94e689b2-28f2-4d91-bea6-b2b7d3b12c13")
-		(property "Reference" "#FLG04"
-			(at 161.925 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 162.052 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3c703a2-c449-432e-bd9c-28dbc636e8a7")
-		)
-		(instances
-			(project "proj_seients"
-				(path "/abdea21b-3040-408b-b009-221f8b614884/4b7a2b31-c07e-4668-81d2-c9fcd52362f2"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
