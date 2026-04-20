@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "height": 0.3,
+          "width": 1.025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|112492500|76080000|d0596552-3ef3-4b6f-96ac-a415fde2c710|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|126145000|127422500|43d55180-3e47-462e-9bc5-66e8c2ef513d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|160612500|104265000|df235a43-875a-4cf7-b6f7-b50f930310e0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "zones_intersect|115370000|133325000|ed45a7fc-c98f-4619-81e2-137644c888a2|26f04a78-6be6-4511-8007-2ad2f3d42692",
+          ""
+        ],
+        [
+          "zones_intersect|119080419|124700000|f270eb73-0387-44ce-a6b1-f0a6e6e70495|3d4c6281-d73e-43a7-8ba3-2086d0c44a03",
+          ""
+        ],
+        [
+          "zones_intersect|130440000|126400000|90d9730a-7a6f-455a-a2ed-703be6c34283|ed45a7fc-c98f-4619-81e2-137644c888a2",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -190,6 +215,7 @@
         0.0,
         0.25,
         0.5,
+        0.8,
         1.0,
         1.5,
         2.5
@@ -503,7 +529,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.3,
         "name": "Potencia_alta",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -513,7 +539,7 @@
         "via_drill": 0.6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "name": "Potencia_media",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -523,7 +549,7 @@
         "via_drill": 0.5
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "name": "VCCbaja",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,

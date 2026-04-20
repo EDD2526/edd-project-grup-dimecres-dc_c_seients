@@ -7610,22 +7610,22 @@
 	)
 	(global_label "LIM_REC_MAX"
 		(shape input)
-		(at 133.35 81.28 180)
+		(at 218.44 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5f744795-46de-42ba-bb70-e48e4a6ddac5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9068 81.28 0)
+			(at 233.8832 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8552,22 +8552,22 @@
 	)
 	(global_label "CALEFACCIÓ"
 		(shape output)
-		(at 218.44 88.9 0)
+		(at 133.35 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fc075d54-0924-44fd-8e89-85f9f8cae9ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6134 88.9 0)
+			(at 119.1766 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

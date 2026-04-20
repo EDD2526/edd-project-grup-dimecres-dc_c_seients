@@ -4955,7 +4955,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02ba232c-8a90-4a45-b972-c195b287a1bf")
 		(property "Reference" "U7"
 			(at 167.2433 39.37 0)
@@ -6280,7 +6279,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4bf33772-d9f6-4f97-89eb-d6fd5f72a3b6")
 		(property "Reference" "U8"
 			(at 167.2433 76.2 0)
