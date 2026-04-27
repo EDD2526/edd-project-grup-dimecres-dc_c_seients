@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 # Projecte Seients
 
 >**Autors: MIGUEL Angel Tovar Jaime - Pol Salas Costa** 
->**Versió: 1.0.0**
+>**Versió: 3.8**
 
 ----------
 
@@ -59,6 +59,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 | Manta Calefactora | Carbon Fiber Pad | Genèric | - | Genèric | 15,00&euro; | 1x |
 | Sensor Temperatura | Termistor NTC 10k | Gota / Cable| [Datasheet](https://www.vishay.com/docs/29049/ntcle100.pdf) | Genèric | 0,50€ | 1x |
 | Sensor de Temperatura | TMP102 | DRL SOT563 | [Datasheet](https://www.ti.com/lit/ds/symlink/tmp102.pdf) | Texas Instruments | 0,323€ | 1x |
+
 -----------
 
 ## Software
@@ -84,4 +85,5 @@ View this project on [CADLAB.io](https://cadlab.io/project/30193).
 | Data | Autor     | Branch | Versi&#243; | Descripci&#243; |
 | --- | --- | --- | --- | --- |
 |  28/03/2023 | mlopez | Master | initial commit | Primera versi&#243; d'esquem&#224;tic i selecci&#243; de components |
-| 17/03/2026 | Pol i Miguel | main | 1.0.0 | Finalització de l'esquemàtic |
+| 17/03/2026 | Pol i Miguel | main | 1.0 | Finalització de l'esquemàtic |
+| 20/04/2026 | Pol i Miguel | main | 3.9 | Finalització del layout |
